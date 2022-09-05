@@ -1,0 +1,84 @@
+html {
+    font-size: 14px;
+}
+
+.carta {
+    background-color: red;
+    height: 120px;
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: rgb(245, 237, 214);
+    padding: 20px 20px 10px 20px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    /* background-image: url("img/fondo.png"); */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+    opacity: 0.93;
+}
+
+.footer-title {
+    width: 70%;
+    display: inline-block;
+}
+
+.footer-icons {
+    width: 29%;
+    display: inline-block;
+}
+
+.list-footer {
+    list-style: none;
+    font-size: 13px;
+}
+
+.list-footer-item {
+    font-size: 12x;
+    color: #434b51;
+    text-decoration: none;
+    display: block;
+}
+
+.icono {
+    font-size: 20px;
+}
+
+.scrollspy-example {
+    width: 100%;
+    height: 100%;
+    /* height: 315px; */
+    /* overflow: auto; */
+    overflow-x: scroll;
+    /* border: 5px solid red; */
+    display: flex;
+}
+
+.col-md-6 {
+    display: inline-block;
+    flex-wrap: nowrap;
+
+}
+
+.pagos{
+    text-align: center;
+}
+
+.pagos ul{
+    list-style: none;
+}
+
+.ultimas h4{
+    text-align: center
+}
+
+.contenedor-ultimas{
+    background-color:#d6dce0;
+}

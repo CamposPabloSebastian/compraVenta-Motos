@@ -1,0 +1,107 @@
+/* font-family: 'Dancing Script',
+cursive;
+font-family: 'Manrope',
+sans-serif;
+font-family: 'Montserrat',
+sans-serif;
+font-family: 'Raleway',
+sans-serif; */
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("img/fondo.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ocultar {
+    min-width: 300px;
+    margin-right: 20px;
+    height: 100%;
+    background-color: rgb(194, 200, 206);
+    background-image: linear-gradient(to right, rgba(123, 123, 123, 0.05), rgb(7, 7, 7));
+}
+
+.btn {
+    width: 100%;
+}
+
+.light {
+    color: black;
+    background-color: rgba(72, 73, 73, 0.589);
+}
+
+.dark {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.966);
+}
+
+.filtros {
+    position: sticky;
+    top: 100px;
+}
+
+.banner {
+    background-color: rgba(128, 128, 128, 0.7);
+    margin-bottom: 3%;
+}
+
+.banner h1 {
+    text-transform: uppercase;
+    text-decoration: overline;
+    font-weight: 600;
+}
+
+.nuevoProducto {
+    background-color: rgba(128, 128, 128, 0.7);
+    border: solid 2px black;
+}
+
+.card {
+    opacity: 0.96;
+}
+
+.svgSilueta img {
+    width: 100%;
+}
+
+
+.svgSilueta {
+    width: 9vw;
+    height: 9vw;
+    border-radius: 50%;
+    background-color: white;
+    /* background-color: rgb(43, 42, 42); */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+
+#inicioSesion {
+    /* background-color: rgb(43, 42, 42); */
+    background-color: black;
+
+}
+
+#formIniciarSesion {
+    background-color: white;
+    margin-top: -15%;
+    margin-bottom: 10%;
+}
+
+.datos-producto {
+    background-color: aqua;
+}
+
+.datos-producto img {
+    width: 100%;
+}
+
+.contacta-vendedor {
+    background-color: yellow;
+}
